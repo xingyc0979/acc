@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ACC"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/sd/ACC_v09/ACC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/sd/ACC_v09/ACC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/sd/ACC_v09/ACC/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ACC">
+				<Option output="/home/sd/ACC_v09/ACC/cmake-build-debug/ACC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sd/ACC_v09/ACC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sd/ACC_v09/ACC/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 ACC"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ACC/fast">
+				<Option output="/home/sd/ACC_v09/ACC/cmake-build-debug/ACC" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/sd/ACC_v09/ACC/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/home/sd/ACC_v09/ACC/src"/>
+					<Add directory="/usr/include/c++/9"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/9"/>
+					<Add directory="/usr/include/c++/9/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/9/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 ACC/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/home/sd/ACC_v09/ACC/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/AST.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/Arith.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/Bodies.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/Coder.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/Decls.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/DefTab.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/Error.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/IR.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/Mapping.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/Parse.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/Scanning.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/Semantic.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/Types.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/Unparse.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/Weave.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/XARITH.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/XCODER.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/grts.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/lexer.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/lexer.h">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/libacc.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/main.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/output.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/pointcut.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/pointcut.h">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/symboltable.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/symboltable.h">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/weaveutil.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/weaveutil.h">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/xerror.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/src/y.tab.c">
+			<Option target="ACC"/>
+		</Unit>
+		<Unit filename="/home/sd/ACC_v09/ACC/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

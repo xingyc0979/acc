@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/sd/ACC_v09/ACC/src/main.c
+pointcut.h
+/home/sd/ACC_v09/ACC/src/pointcut.h
+symboltable.h
+/home/sd/ACC_v09/ACC/src/symboltable.h
+stdio.h
+-
+stdlib.h
+-
+assert.h
+-
+string.h
+-
+
+/home/sd/ACC_v09/ACC/src/pointcut.h
+symboltable.h
+/home/sd/ACC_v09/ACC/src/symboltable.h
+utac_tag.h
+/home/sd/ACC_v09/ACC/src/utac_tag.h
+assert.h
+-
+
+/home/sd/ACC_v09/ACC/src/symboltable.h
+
+/home/sd/ACC_v09/ACC/src/utac_tag.h
+
