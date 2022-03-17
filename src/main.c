@@ -158,7 +158,7 @@ main (argc, argv)
    }
 
    //insert new member to the struct/union inside the aspect file
-   for(i = 0; i < aFileNum; i++) {
+   for(i = 0; i < aFileNum; i++) {//wave into target_file
         define_target_file_name(aFileNames[i]);
         insertTypeMember(target_file_name, PointCutTable);
         free_file_name();
@@ -317,7 +317,7 @@ void define_target_file_name (   char *str)
 
    src_file_name = (char *)malloc(strlen(str) + 1);
    sprintf(src_file_name, "%s", str);
-
+    //printf(str,"%s");
 
    i = strlen(str)-1;
    for(;;) {
